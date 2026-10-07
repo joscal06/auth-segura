@@ -3,7 +3,7 @@
 Sistema de autenticación construido con **Next.js 16 (App Router)**, **Supabase Auth + Database** y **TypeScript**, donde la sesión vive exclusivamente en **cookies httpOnly** gestionadas por `@supabase/ssr`. Todas las operaciones de autenticación se ejecutan en **Server Actions**, las rutas privadas se protegen en el **proxy (middleware)** y cada respuesta incluye capas de defensa contra **XSS** y **CSRF**.
 
 - **Demo en producción:** _(agregar enlace de Vercel)_
-- **Repositorio:** _(agregar enlace de GitHub)_
+- **Repositorio:** https://github.com/joscal06/auth-segura
 
 ---
 
@@ -99,7 +99,7 @@ Metadatos por página (título con plantilla, descripción, canonical, Open Grap
 Requisitos: Node.js 20.9+ y una cuenta de [Supabase](https://supabase.com).
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/joscal06/auth-segura.git
 cd auth-segura
 npm install
 cp .env.example .env.local
