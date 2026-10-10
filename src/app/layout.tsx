@@ -54,8 +54,14 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         <main id="contenido" className="flex-1">
           {children}
         </main>
-        <footer className="border-t border-borde py-6 text-center text-xs text-suave">
-          Cerrojo · Next.js 16 + Supabase · Proyecto académico de seguridad web
+        <footer className="space-y-1 border-t border-borde px-4 py-6 text-center text-xs text-suave">
+          <p>
+            Tarea: Seguridad de Autenticación con Cookies httpOnly en Next.js · Bootcamp KODIGO
+          </p>
+          <p>
+            Desarrollado por <span className="font-medium text-texto">José Manuel Calderón González</span> · Next.js 16 +
+            Supabase
+          </p>
         </footer>
       </body>
     </html>
