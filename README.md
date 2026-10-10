@@ -2,7 +2,7 @@
 
 Sistema de autenticación construido con **Next.js 16 (App Router)**, **Supabase Auth + Database** y **TypeScript**, donde la sesión vive exclusivamente en **cookies httpOnly** gestionadas por `@supabase/ssr`. Todas las operaciones de autenticación se ejecutan en **Server Actions**, las rutas privadas se protegen en el **proxy (middleware)** y cada respuesta incluye capas de defensa contra **XSS** y **CSRF**.
 
-- **Demo en producción:** _(agregar enlace de Vercel)_
+- **Demo en producción:** https://auth-segura.vercel.app
 - **Repositorio:** https://github.com/joscal06/auth-segura
 
 ---
